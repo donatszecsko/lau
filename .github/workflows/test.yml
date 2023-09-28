@@ -1,5 +1,7 @@
 # Your GitHub workflow file under .github/workflows/
 
+on: push
+
 jobs:
   publish-docs:
     runs-on: ubuntu-latest
